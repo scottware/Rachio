@@ -9,16 +9,9 @@ public class Rachio {
 		API api = new API();
 		// api.setPersonID();
 		// api.fetchPerson();
-		api.testPrint();
-		// System.out.println(api.getPersonId());
-		//
-		// String jsonText =
-		// "{\"id\":\"a28a5069-afdf-45b1-a497-c0070881e84d\"}";
-		// try {
-		// api.parseText(jsonText);
-		// } catch (ParseException e) {
-		// e.printStackTrace();
-		// }
+		api.zoneStart("873ed34e-7901-45ad-87dd-6f00b30de5bb",10);
+
+		// JSONHelper.testPrint();
 	}
 
 }
